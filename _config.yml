@@ -8,6 +8,8 @@ plugins:
 
 permalink: /:year/:month/:day/:title/
 
+timezone: America/New_York
+
 defaults:
   -
     scope:
