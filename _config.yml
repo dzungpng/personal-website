@@ -49,12 +49,17 @@ social_media:
   # youtube: your_username
 
 topics:
-  - name: CSS
-    web_url: https://github.com/topics/css
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+  - name: Rendering
+    web_url: https://github.com/topics/physically-based-rendering
+    image_url: https://cdn.iconscout.com/icon/premium/png-512-thumb/computer-graphics-6-760388.png
 
-  - name: Web design
+  - name: Virtual Reality
+    web_url: https://github.com/topics/virtual-reality
+    image_url: https://cdn1.iconfinder.com/data/icons/virtual-reality-and-drones-2/136/25-512.png
 
-  - name: Sass
-    web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+  - name: Neural Networks
+    web_url: https://github.com/topics/neural-network
+    image_url: https://cdn3.iconfinder.com/data/icons/artificial-intelligence-1-4/48/1-512.png
+
+# items:
+#   limit: 9
