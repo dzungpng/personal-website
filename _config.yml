@@ -48,18 +48,30 @@ social_media:
   website: http://dzungpng.github.io
   # youtube: your_username
 
+# interest topics
 topics:
   - name: Rendering
     web_url: https://github.com/topics/physically-based-rendering
-    image_url: https://cdn.iconscout.com/icon/premium/png-512-thumb/computer-graphics-6-760388.png
+    image_url: /images/rendering.png
 
   - name: Virtual Reality
     web_url: https://github.com/topics/virtual-reality
-    image_url: https://cdn1.iconfinder.com/data/icons/virtual-reality-and-drones-2/136/25-512.png
+    image_url: /images/vr.png
 
   - name: Neural Networks
     web_url: https://github.com/topics/neural-network
-    image_url: https://cdn3.iconfinder.com/data/icons/artificial-intelligence-1-4/48/1-512.png
+    image_url: /images/ai.png
 
-# items:
-#   limit: 9
+# portfolio topics
+pitems:
+  - name: Computer Graphics
+    web_url: http://dzungpng.github.io/cgprojects
+    image_url: /images/cg.png
+
+  - name: Web Development
+    web_url: http://dzungpng.github.io/webprojects
+    image_url: /images/webdev.jpeg
+
+  - name: Miscellaneous
+    web_url: http://dzungpng.github.io/miscprojects
+    image_url: /images/misc.png

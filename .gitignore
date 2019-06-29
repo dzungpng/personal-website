@@ -5,3 +5,8 @@ _site/
 Gemfile.lock
 **/.ruby-version
 vendor/**
+
+# virtual env
+venv/
+
+.DS_Store
