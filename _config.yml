@@ -80,7 +80,7 @@ pitems:
 cgprojects:
   - name: Monte Carlo Pathtracer
     web_url: http://dzungpng.github.io/pages/monte-carlo
-    image_url: /images/rendering.png
+    image_url: /images/monte-carlo.png
 
   - name: Recursive Ray Tracer
     web_url: http://dzungpng.github.io/pages/ray-tracer
