@@ -79,27 +79,27 @@ pitems:
 # cg projects
 cgprojects:
   - name: Monte Carlo Pathtracer
-    web_url: https://github.com/topics/physically-based-rendering
+    web_url: http://dzungpng.github.io/pages/monte-carlo
     image_url: /images/rendering.png
 
   - name: Recursive Ray Tracer
-    web_url: https://github.com/topics/virtual-reality
+    web_url: http://dzungpng.github.io/pages/ray-tracer
     image_url: /images/vr.png
 
   - name: 3D Mesh Editor
-    web_url: https://github.com/topics/neural-network
+    web_url: http://dzungpng.github.io/pages/mesh-editor
     image_url: /images/ai.png
 
   - name: Japanese-ink Minecraft
-    web_url: https://github.com/topics/neural-network
+    web_url: http://dzungpng.github.io/pages/minecraft
     image_url: /images/ai.png
 
   - name: 3D Rasterizer
-    web_url: https://github.com/topics/neural-network
+    web_url: http://dzungpng.github.io/pages/rasterizer
     image_url: /images/ai.png
 
   - name: OpenGL Shaders
-    web_url: https://github.com/topics/neural-network
+    web_url: http://dzungpng.github.io/pages/shaders
     image_url: /images/ai.png
 
 # misc projects
