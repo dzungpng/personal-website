@@ -23,7 +23,7 @@ projects:
   # sort_by options:
   #   - pushed
   #   - stars
-  limit: 9
+  limit: 6
   exclude:
     archived: false
     forks: true
@@ -99,5 +99,45 @@ cgprojects:
     image_url: /images/ai.png
 
   - name: OpenGL Shaders
+    web_url: https://github.com/topics/neural-network
+    image_url: /images/ai.png
+
+# misc projects
+miscprojects:
+  - name: BobaSweeper
+    web_url: https://github.com/topics/physically-based-rendering
+    image_url: /images/rendering.png
+
+  - name: careermatch
+    web_url: https://github.com/topics/virtual-reality
+    image_url: /images/vr.png
+
+  - name: WeathAR
+    web_url: https://github.com/topics/neural-network
+    image_url: /images/ai.png
+
+  - name: Cardiac Waveform Segmentation with u-net
+    web_url: https://github.com/topics/neural-network
+    image_url: /images/ai.png
+
+  - name: 2D Art
+    web_url: https://github.com/topics/neural-network
+    image_url: /images/ai.png
+
+  - name: 3D Art
+    web_url: https://github.com/topics/neural-network
+    image_url: /images/ai.png
+
+# web projects
+webprojects:
+  - name: Deal IQ
+    web_url: https://github.com/topics/physically-based-rendering
+    image_url: /images/rendering.png
+
+  - name: PennCourseRec
+    web_url: https://github.com/topics/virtual-reality
+    image_url: /images/vr.png
+
+  - name: Scrum Board API
     web_url: https://github.com/topics/neural-network
     image_url: /images/ai.png

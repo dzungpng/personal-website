@@ -15,6 +15,18 @@
       </div>
     {% endif %}
 
+    {% if site.miscprojects and page.title == 'Misc Projects' %}
+      <div class="my-6">
+        {% include miscprojects-layout.html %}
+      </div>
+    {% endif %}
+
+    {% if site.webprojects and page.title == 'Web Projects' %}
+      <div class="my-6">
+        {% include webprojects-layout.html %}
+      </div>
+    {% endif %}
+
   </div>
 {% else %}
   <div class="d-md-flex min-height-full {% unless site.style == 'dark' %}border-md-bottom{% endunless %}">
@@ -31,6 +43,14 @@
 
             {% if site.cgprojects and page.title == 'CG Projects' %}
               {% include cgprojects-layout.html %}
+            {% endif %}
+
+            {% if site.miscprojects and page.title == 'Misc Projects' %}
+              {% include miscprojects-layout.html %}
+            {% endif %}
+
+            {% if site.webprojects and page.title == 'Web Projects' %}
+              {% include webprojects-layout.html %}
             {% endif %}
 
           </div>
