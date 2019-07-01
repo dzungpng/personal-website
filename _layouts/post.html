@@ -31,6 +31,14 @@
             <p class="f5"><a href="javascript:history.go(-1)" class="d-flex flex-items-center {% if site.style == 'dark' %}text-white{% endif %}">{% octicon chevron-left height:16 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Back %}Back</a></p>
             <h1 class="f00-light lh-condensed">{{ page.title }}</h1>
             <p class="{% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %} mb-5">Completed: {{ page.date | date: "%b %d, %Y"}}</p>
+            <div class="row">
+              <div class="column">
+                <span title="Primary Language" class="d-inline-block f5 rounded-2 text-white bg-green py-1 px-2">{{ page.primary-language }}</span> 
+              </div>
+              <div class="column">
+                <span title="IDE" class="d-inline-block f5 rounded-2 text-white bg-blue py-1 px-2">{{ page.ide }}</span> 
+              </div>
+            </div>
             {{ post_body }}
           </div>
         </div>
