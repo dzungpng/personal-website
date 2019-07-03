@@ -88,7 +88,7 @@ cgprojects:
 
   - name: 3D Mesh Editor
     web_url: http://dzungpng.github.io/pages/mesh-editor
-    image_url: /images/ai.png
+    image_url: /images/beach_ball.png
 
   - name: Japanese-ink Minecraft
     web_url: http://dzungpng.github.io/pages/minecraft
