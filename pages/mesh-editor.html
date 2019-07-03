@@ -17,7 +17,7 @@ ide: QT Creator
     </div>
     <p>
 		<br />
-  	In cis 560 (Computer Graphics), I built a mini version of <b>Autodesk Maya</b>. The goal was to understand a geometric data structure called half-edge, which is a popular way to represent 3D geometry, and taking advantage of the relationships between components of a half-edge mesh to perform mesh editing algorithms such as extrusion, Catmull-Clark Subdivision, and triangulation. In addition, I implemented an OBJ loader to load any OBJ formatted 3D data into the editor. I also learned the structure of a skeleton-joint structure and how different methods of skinning works in order to implement linear-blend and dual quaternion skinning. This was one of my favorite projects in the course because I got to learn very important, fundamental concepts of computer graphics programming and because I am able to gain a better understanding of some of the tools that I use so much in 3D software like Max and Maya. <br />
+  	In CIS 560 (Computer Graphics), I built a mini version of <b>Autodesk Maya</b>. The goal was to understand a geometric data structure called half-edge, which is a popular way to represent 3D geometry, and taking advantage of the relationships between components of a half-edge mesh to perform mesh editing algorithms such as extrusion, Catmull-Clark Subdivision, and triangulation. In addition, I implemented an OBJ loader to load any OBJ formatted 3D data into the editor. I also learned the structure of a skeleton-joint structure and how different methods of skinning works in order to implement linear-blend and dual quaternion skinning. This was one of my favorite projects in the course because I got to learn very important, fundamental concepts of computer graphics programming and because I am able to gain a better understanding of some of the tools that I use so much in 3D software like Max and Maya. <br />
 		<br />
     The biggest challenge that I encountered with the project was when I implemented <a href="https://en.wikipedia.org/wiki/Catmull%E2%80%93Clark_subdivision_surface"><b>Catmull-Clark subdivision</b></a>. The concept sounds simple: just divide each face into quads and smooth vertices. Implementation-wise, it was fairly tricky. The hardest part was to ensure that the component pointers are set correctly, especially during quadrangulate, a process in which we divide each face of the geometry into quads. The end result is very satisfying. Smoothing meshes is a tool that exists in almost any 3D software in the market. <br />
     <br />
@@ -31,13 +31,13 @@ ide: QT Creator
     <div class="row">
             <div class="column">
                 <figure>
-                    <img src="../../images/not-twisted.png" alt="Mesh Editor" width="420" height="auto" class="fade">
+                    <img src="../../images/not-twisted.png" alt="Mesh Editor" width=85% height="auto" class="fade">
                     <figcaption>Before smoothing and skinning.</figcaption>
                 </figure>
             </div>
             <div class="column">
                 <figure>
-                    <img src="../../images/twisted.png" alt="Mesh Editor" width="420" height="auto" class="fade">
+                    <img src="../../images/twisted.png" alt="Mesh Editor" width=85% height="auto" class="fade">
                     <figcaption>After twisting and skinning (rotation of 60 degrees).</figcaption>
                 </figure>
             </div>
