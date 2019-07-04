@@ -80,11 +80,7 @@ pitems:
 cgprojects:
   - name: Monte Carlo Pathtracer
     web_url: http://dzungpng.github.io/pages/monte-carlo
-    image_url: /images/monte-carlo.png
-
-  - name: Recursive Ray Tracer
-    web_url: http://dzungpng.github.io/pages/ray-tracer
-    image_url: /images/vr.png
+    image_url: /images/mt-4.png
 
   - name: 3D Mesh Editor
     web_url: http://dzungpng.github.io/pages/mesh-editor
@@ -92,15 +88,11 @@ cgprojects:
 
   - name: Japanese-ink Minecraft
     web_url: http://dzungpng.github.io/pages/minecraft
-    image_url: /images/ai.png
-
-  - name: 3D Rasterizer
-    web_url: http://dzungpng.github.io/pages/rasterizer
-    image_url: /images/ai.png
+    image_url: /images/minecraft.png
 
   - name: OpenGL Shaders
     web_url: http://dzungpng.github.io/pages/shaders
-    image_url: /images/ai.png
+    image_url: /images/shader.png
 
 # misc projects
 miscprojects:
