@@ -48,50 +48,62 @@ social_media:
   website: http://dzungpng.github.io
   # youtube: your_username
 
-# interest topics
+# Me!
 topics:
-  - name: Rendering
-    web_url: https://github.com/topics/physically-based-rendering
-    image_url: /images/rendering.png
+  - name: Penn Computer Graphics Student
+    web_url: http://cg.cis.upenn.edu/
+    image_url: /images/penn.jpg
 
-  - name: Virtual Reality
-    web_url: https://github.com/topics/virtual-reality
-    image_url: /images/vr.png
+  - name: Jack Kent Cooke Foundation Scholar
+    web_url: https://www.jkcf.org/
+    image_url: /images/jkc.jpg
 
-  - name: Neural Networks
-    web_url: https://github.com/topics/neural-network
-    image_url: /images/ai.png
+  - name: Rewriting the Code Fellow
+    web_url: https://rewritingthecode.org/
+    image_url: /images/RTC.jpg
+
+  - name: CBRE Build Software Engineer Intern
+    web_url: https://www.cbrebuild.com/
+    image_url: /images/cbre-build.png
+
+  - name: Penn SIGGRAPH Board Member
+    web_url: http://cg.cis.upenn.edu/siggraph/main.html#chapter
+    image_url: /images/siggraph.png
+
+  - name: Proud Artist Since I was Four
+    web_url: http://cg.cis.upenn.edu/siggraph/main.html#chapter
+    image_url: /images/artist.jpg
 
 # portfolio topics
 pitems:
   - name: Computer Graphics
-    web_url: http://dzungpng.github.io/cgprojects
+    web_url: ./cgprojects
     image_url: /images/cg.png
 
   - name: Web Development
-    web_url: http://dzungpng.github.io/webprojects
+    web_url: ./webprojects
     image_url: /images/webdev.jpeg
 
   - name: Miscellaneous
-    web_url: http://dzungpng.github.io/miscprojects
+    web_url: ./miscprojects
     image_url: /images/misc.png
 
 # cg projects
 cgprojects:
   - name: Monte Carlo Pathtracer
-    web_url: http://dzungpng.github.io/pages/monte-carlo
+    web_url: /pages/monte-carlo
     image_url: /images/mt-4.png
 
   - name: 3D Mesh Editor
-    web_url: http://dzungpng.github.io/pages/mesh-editor
+    web_url: /pages/mesh-editor
     image_url: /images/beach_ball.png
 
   - name: Japanese-ink Minecraft
-    web_url: http://dzungpng.github.io/pages/minecraft
+    web_url: /pages/minecraft
     image_url: /images/minecraft.png
 
   - name: OpenGL Shaders
-    web_url: http://dzungpng.github.io/pages/shaders
+    web_url: /pages/shaders
     image_url: /images/shader.png
 
 # misc projects
@@ -109,14 +121,6 @@ miscprojects:
     image_url: /images/ai.png
 
   - name: Cardiac Waveform Segmentation with u-net
-    web_url: https://github.com/topics/neural-network
-    image_url: /images/ai.png
-
-  - name: 2D Art
-    web_url: https://github.com/topics/neural-network
-    image_url: /images/ai.png
-
-  - name: 3D Art
     web_url: https://github.com/topics/neural-network
     image_url: /images/ai.png
 
