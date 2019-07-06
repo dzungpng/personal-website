@@ -130,6 +130,6 @@ webprojects:
     web_url: /pages/web-dealiq
     image_url: /images/deal-iq.png
 
-  - name: Scrum Board API
-    web_url: pages/web-scrumapi
-    image_url: /images/scrum.png
+  - name: PennCourseRec
+    web_url: /pages/web-penncourserec
+    image_url: /images/penncourserec.gif

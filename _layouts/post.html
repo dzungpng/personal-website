@@ -32,15 +32,31 @@
             <h1 class="f00-light lh-condensed">{{ page.title }}</h1>
             <p class="{% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %} mb-5">Completed: {{ page.date | date: "%b %d, %Y"}}</p>
             <div class="row">
+              {% if page.primary-language %}
               <div class="column">
-                <span title="Primary Language" class="d-inline-block f5 rounded-2 text-white bg-green py-1 px-2">{{ page.primary-language }}</span> 
+                <span title="Tool" class="d-inline-block f5 rounded-2 text-white bg-green py-1 px-2">{{ page.primary-language }}</span> 
               </div>
+              {% endif %}
+              {% if page.framework %}
               <div class="column">
-                <span title="Framework" class="d-inline-block f5 rounded-2 text-white bg-red py-1 px-2">{{ page.framework }}</span> 
+                <span title="Tool" class="d-inline-block f5 rounded-2 text-white bg-red py-1 px-2">{{ page.framework }}</span> 
               </div>
+              {% endif %}
+              {% if page.ide %}
               <div class="column">
-                <span title="IDE" class="d-inline-block f5 rounded-2 text-white bg-blue py-1 px-2">{{ page.ide }}</span> 
+                <span title="Tool" class="d-inline-block f5 rounded-2 text-white bg-blue py-1 px-2">{{ page.ide }}</span> 
               </div>
+              {% endif %}
+              {% if page.other %}
+              <div class="column">
+                <span title="Tool" class="d-inline-block f5 rounded-2 text-white bg-yellow py-1 px-2">{{ page.other }}</span> 
+              </div>
+              {% endif %}
+              {% if page.secondary-language %}
+              <div class="column">
+                <span title="Secondary Language" class="d-inline-block f5 rounded-2 text-white bg-purple py-1 px-2">{{ page.secondary-language }}</span> 
+              </div>
+              {% endif %}
             </div>
             {{ post_body }}
           </div>
