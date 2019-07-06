@@ -127,13 +127,9 @@ miscprojects:
 # web projects
 webprojects:
   - name: Deal IQ
-    web_url: https://github.com/topics/physically-based-rendering
-    image_url: /images/rendering.png
-
-  - name: PennCourseRec
-    web_url: https://github.com/topics/virtual-reality
-    image_url: /images/vr.png
+    web_url: /pages/web-dealiq
+    image_url: /images/deal-iq.png
 
   - name: Scrum Board API
-    web_url: https://github.com/topics/neural-network
-    image_url: /images/ai.png
+    web_url: pages/web-scrumapi
+    image_url: /images/scrum.png
