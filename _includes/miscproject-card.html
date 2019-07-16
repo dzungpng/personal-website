@@ -1,7 +1,7 @@
 {% if miscproject.web_url %}
-  <a href="{{ miscproject.web_url }}" class="github-component position-relative hover-grow height-full no-underline d-flex flex-column flex-justify-center text-center border border-gray-light rounded-1 bg-white p-5">
+  <a href="{{ miscproject.web_url }}" class="github-component position-relative hover-grow height-full no-underline d-flex flex-column flex-justify-center text-center border border-gray-light rounded-1 bg-white p-5" target="_blank">
     {% if miscproject.image_url %}
-      <img src="{{ miscproject.image_url }}" width="64" height="64" class="mx-auto rounded-1 mb-3" alt="{{ miscproject.name }}">
+      <img src="{{ miscproject.image_url }}" width="64" height="64" class="mx-auto rounded-1 mb-3" alt="{{ miscproject.name }}" >
     {% else %}
       <div
         class="bg-blue-light f4 text-gray-light text-bold rounded-1 flex-shrink-0 text-center mx-auto mb-3"
