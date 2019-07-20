@@ -1,12 +1,3 @@
-// VANTA.WAVES({
-//   el: '#my-wave',
-//   color: 0x7d7376,
-//   waveHeight: 20,
-//   shininess: 50,
-//   waveSpeed: 1,
-//   zoom: 0.75
-// })
-
 VANTA.BIRDS({
   el: "#my-wave",
   backgroundColor: 0xeceff2,
