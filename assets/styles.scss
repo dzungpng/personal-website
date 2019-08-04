@@ -4,6 +4,12 @@
 @import 'highlight-syntax';
 
 
+// Headers
+h2.center {
+  text-align: center;
+  margin-top: 3rem
+}
+
 // If a user adds a custom font, this component will stop it from bleeding into GitHub components:
 .github-component {
   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol !important;
@@ -199,3 +205,58 @@ footer {
   background-color: #717171;
 }
 
+// ----------------------- ART WALL -----------------------------
+
+.row-art {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column-art {
+  flex: 33.3333%;
+  max-width: 33.3333%;
+  padding: 0 4px;
+}
+
+.column-art img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column-art {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column-art {
+    flex: 100%;
+    max-width: 100%;
+  }
+} 
+
+// Makes artworks zoom bigger a little bit on hover
+img.art {
+    transition:transform 0.25s ease;
+}
+
+img.art:hover {
+    -webkit-transform:scale(2);
+    transform:scale(2);
+}
+
+img.threed {
+    transition:transform 0.25s ease;
+}
+
+img.threed:hover {
+    -webkit-transform:scale(2.25);
+    transform:scale(2.25);
+}
