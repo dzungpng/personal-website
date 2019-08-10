@@ -76,20 +76,6 @@ topics:
 
 # portfolio topics
 pitems:
-  - name: Computer Graphics
-    web_url: ./cgprojects
-    image_url: /images/cg.png
-
-  - name: Web Development
-    web_url: ./webprojects
-    image_url: /images/webdev.jpeg
-
-  - name: Miscellaneous
-    web_url: ./miscprojects
-    image_url: /images/misc.png
-
-# cg projects
-cgprojects:
   - name: Monte Carlo Pathtracer
     web_url: /pages/monte-carlo
     image_url: /images/mt-4.png
@@ -106,8 +92,14 @@ cgprojects:
     web_url: /pages/shaders
     image_url: /images/shader.png
 
-# misc projects
-miscprojects:
+  - name: Deal IQ
+    web_url: /pages/web-dealiq
+    image_url: /images/deal_logo.png
+
+  - name: PennCourseRec
+    web_url: /pages/web-penncourserec
+    image_url: /images/calendar.png
+
   - name: Boba Sweeper
     web_url: https://vimeo.com/348311559
     image_url: /images/bobasweeper.png
@@ -123,13 +115,3 @@ miscprojects:
   - name: U-Net Waveform Segmentation 
     web_url: https://github.com/dzungpng/wave-extraction-unet
     image_url: /images/waves.png
-
-# web projects
-webprojects:
-  - name: Deal IQ
-    web_url: /pages/web-dealiq
-    image_url: /images/deal_logo.png
-
-  - name: PennCourseRec
-    web_url: /pages/web-penncourserec
-    image_url: /images/calendar.png
