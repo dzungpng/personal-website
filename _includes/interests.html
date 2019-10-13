@@ -7,3 +7,11 @@
     </div>
   {% endfor %}
 </div>
+<p class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">What I was up to recently...</p>
+<div class="d-flex flex-wrap gutter-condensed mb-4">
+  {% for old-role in site.old-roles %}
+    <div class="col-6 col-md-12 col-lg-6 col-xl-4 mb-3">
+      {% include old-role-card.html %}
+    </div>
+  {% endfor %}
+</div>

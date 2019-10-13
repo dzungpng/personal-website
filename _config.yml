@@ -62,9 +62,9 @@ topics:
     web_url: https://rewritingthecode.org/
     image_url: /images/RTC.jpg
 
-  - name: CBRE Build Software Engineer Intern
-    web_url: https://www.cbrebuild.com/
-    image_url: /images/cbre-build.png
+  - name: hack4impact Software Engineer
+    web_url: https://hack4impact.org/about/
+    image_url: /images/hack.png
 
   - name: Penn SIGGRAPH External Relations Chair
     web_url: http://cg.cis.upenn.edu/siggraph/main.html#chapter
@@ -73,6 +73,15 @@ topics:
   - name: Proud Artist Since I was Four
     web_url: pages/aboutme-art
     image_url: /images/artist.jpg
+
+old-roles:
+  - name: CBRE Build Software Engineer Intern
+    web_url: https://www.cbrebuild.com/
+    image_url: /images/cbre-build.png
+
+  - name: Pennaach Dancer
+    web_url: https://www.youtube.com/user/Pennaach
+    image_url: /images/naach.png
 
 # portfolio topics
 pitems:
