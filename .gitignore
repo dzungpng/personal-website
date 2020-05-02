@@ -8,5 +8,6 @@ vendor/**
 
 # virtual env
 venv/
+Env/
 
 .DS_Store
