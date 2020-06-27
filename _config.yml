@@ -85,6 +85,14 @@ old-roles:
 
 # portfolio topics
 pitems:
+  - name: 3D Mesh Legolizer
+    web_url: https://github.com/dzungpng/brick-optimization-builder
+    image_url: /images/legolizer.png
+  
+  - name: MPM Simulations
+    web_url: /pages/mpm-simulations
+    image_url: /images/jello.png
+
   - name: Monte Carlo Pathtracer
     web_url: /pages/monte-carlo
     image_url: /images/mt-4.png
@@ -101,21 +109,9 @@ pitems:
     web_url: /pages/shaders
     image_url: /images/shader.png
 
-  - name: Deal IQ
-    web_url: /pages/web-dealiq
-    image_url: /images/deal_logo.png
-
-  - name: PennCourseRec
-    web_url: /pages/web-penncourserec
-    image_url: /images/calendar.png
-
-  - name: Boba Sweeper
-    web_url: https://vimeo.com/348311559
-    image_url: /images/bobasweeper.png
-
-  - name: careermatch
-    web_url: https://github.com/rguan1/CareerJetRecommender
-    image_url: /images/careermatch.png
+  - name: Here to Serve
+    web_url: https://github.com/dzungpng/here-to-serve
+    image_url: /images/h2s.png
 
   - name: WeathAR
     web_url: https://devpost.com/software/weathar-visualizing-forecasts-and-natural-disasters
