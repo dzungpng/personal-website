@@ -39,7 +39,7 @@ social_media:
   # keybase: your_username
   linkedin: dzungng
   # mastodon: your_username
-  # medium: your_username
+  medium: 17dpn01
   # stackoverflow: your_user_id
   # telegram: your_username
   # twitter: your_username
@@ -50,7 +50,7 @@ social_media:
 
 # Me!
 topics:
-  - name: Penn Computer Graphics Student
+  - name: Penn Computer Graphics Undergrad
     web_url: http://cg.cis.upenn.edu/
     image_url: /images/penn.jpg
 
