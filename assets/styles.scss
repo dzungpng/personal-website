@@ -1,13 +1,20 @@
 ---
 ---
 @import url('https://unpkg.com/primer/build/build.css');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
 @import 'highlight-syntax';
 
 
 // Headers
 h2.center {
   text-align: center;
-  margin-top: 3rem
+  margin-top: 3rem;
+}
+
+#handwriting {
+  font-size: 38px;
+  font-family: 'Caveat', cursive;
+  color: #2f363d
 }
 
 // If a user adds a custom font, this component will stop it from bleeding into GitHub components:
@@ -265,4 +272,14 @@ img.threed:hover {
 {
   margin: 0 auto;
   display: block;
+}
+
+.bg-gray-400
+{
+  background-color: #959da5;
+}
+
+// Links
+.no-underline:hover {
+  text-decoration: none;
 }
