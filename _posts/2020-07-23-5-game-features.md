@@ -54,46 +54,9 @@ Inspector, then clicking on the tree icon.
 
 ## AI Target
 Another useful feature for controlling enemy/NPCs is the AI Target tool. This feature is achieved through coding, not
-the Unity GUI, though the code is not very involved.
+the Unity GUI, though the [code](https://gist.github.com/dzungpng/856b459773f8382372f76b66cc5d844d) is not very involved.
 
-```cs
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.AI;
-public class NavigationAI : MonoBehaviour
-{
-    public GameObject theDestination;
-
-    private NavMeshAgent theAgent; 
-    
-    public GameObject walkingBoundary;
-
-    private Vector3 agentOrignalPosition;
-    
-    // Start is called before the first frame update
-    void Start()
-    {
-        theAgent = GetComponent<NavMeshAgent>();
-        agentOrignalPosition = theAgent.transform.position;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if (walkingBoundary.GetComponent<MeshCollider>().bounds.Contains(theDestination.transform.position))
-        {
-            theAgent.SetDestination(theDestination.transform.position);
-        }
-        else
-        {
-            theAgent.SetDestination((agentOrignalPosition));
-        }
-    }
-}
-```
-
-The idea behind this script is that when a user (theDestination) walks within a boundary/region, the character we are trying to control with this script (theAgent) will move towards that destination or target. For this tool to work best, you should attach a walking animation to the character and make sure that you have baked your walkable area (see feature 1 above).
+The idea behind [this script](https://gist.github.com/dzungpng/856b459773f8382372f76b66cc5d844d) is that when a user (theDestination) walks within a boundary/region, the character we are trying to control with this script (theAgent) will move towards that destination or target. For this tool to work best, you should attach a walking animation to the character and make sure that you have baked your walkable area (see feature 1 above).
 
 See a demo of the feature [here](https://vimeo.com/440730407).
 
