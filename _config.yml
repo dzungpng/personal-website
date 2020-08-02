@@ -86,38 +86,47 @@ old-roles:
 
 # portfolio topics
 pitems:
-  - name: 3D Mesh Legolizer
+  - name: Mesh Legolizer Maya Plugin
+    description: C++, Python, MEL
     web_url: https://github.com/dzungpng/brick-optimization-builder
-    image_url: /images/legolizer.png
+    image_url: /images/project_gifs/alpaca.gif
   
-  - name: MPM Simulations
+  - name: MPM Simulations 
+    description: C++, Houdini
     web_url: /pages/mpm-simulations
-    image_url: /images/jello.png
+    image_url: /images/project_gifs/jello.gif
 
   - name: Monte Carlo Pathtracer
+    description: C++
     web_url: /pages/monte-carlo
     image_url: /images/mt-4.png
 
   - name: 3D Mesh Editor
+    description: C++, OpenGL
     web_url: /pages/mesh-editor
-    image_url: /images/beach_ball.png
+    image_url: /images/project_gifs/mini_maya.gif
 
   - name: Japanese-ink Minecraft
+    description: C++, OpenGL
     web_url: /pages/minecraft
-    image_url: /images/minecraft.png
+    image_url: /images/project_gifs/minecraft.gif
 
-  - name: OpenGL Shaders
+  - name: Shaders
+    description: C++, OpenGL
     web_url: /pages/shaders
-    image_url: /images/shader.png
+    image_url: /images/project_gifs/wahoo.gif
 
-  - name: Here to Serve
+  - name: Volunteer Management App
+    description: React, Django
     web_url: https://github.com/dzungpng/here-to-serve
-    image_url: /images/h2s.png
+    image_url: /images/project_gifs/personalize_community.gif
 
   - name: WeathAR
+    description: C#, Unity
     web_url: https://devpost.com/software/weathar-visualizing-forecasts-and-natural-disasters
     image_url: /images/weathar.png
 
-  - name: U-Net Waveform Segmentation 
+  - name: Waveform Segmentation
+    description: Python, Keras
     web_url: https://github.com/dzungpng/wave-extraction-unet
     image_url: /images/waves.png
