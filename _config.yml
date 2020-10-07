@@ -55,6 +55,10 @@ topics:
     web_url: http://cg.cis.upenn.edu/
     image_url: /images/penn.jpg
 
+  - name: Cesium GS Software Engineer Intern
+    web_url: https://cesium.com/team/DzungNguyen/
+    image_url: /images/cesium_logo.png
+
   - name: Jack Kent Cooke Foundation Scholar
     web_url: https://www.jkcf.org/
     image_url: /images/jkc.jpg
@@ -66,10 +70,6 @@ topics:
   - name: hack4impact Software Engineer and Tech Lead
     web_url: https://hack4impact.org/about/
     image_url: /images/hack.png
-
-  - name: Penn SIGGRAPH External Relations Chair
-    web_url: http://cg.cis.upenn.edu/siggraph/main.html#chapter
-    image_url: /images/siggraph.png
 
   - name: Proud Artist Since I was Four
     web_url: pages/aboutme-art
@@ -83,6 +83,10 @@ old-roles:
   - name: Pennaach Dancer
     web_url: https://www.youtube.com/user/Pennaach
     image_url: /images/naach.png
+
+  - name: Penn SIGGRAPH External Relations Chair
+    web_url: http://cg.cis.upenn.edu/siggraph/main.html#chapter
+    image_url: /images/siggraph.png
 
 # portfolio topics
 pitems:
