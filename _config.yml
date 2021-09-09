@@ -64,10 +64,10 @@ topics:
     image_url: /images/artist.jpg
 
 old-roles:
-  - name: Pixar Technical Director
+  - name: Pixar Technical Director Intern
     web_url: https://www.pixar.com
     image_url: /images/home/pixar_ball.jpeg
-    
+
   - name: Penn Computer Graphics Undergrad
     web_url: http://cg.cis.upenn.edu/
     image_url: /images/penn.jpg
