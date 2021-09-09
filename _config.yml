@@ -1,5 +1,5 @@
 layout: sidebar
-style: dark
+style: light
 
 plugins:
   - jekyll-octicons
@@ -51,6 +51,23 @@ social_media:
 
 # Me!
 topics:
+  - name: Software Engineer at Cruise
+    web_url: https://www.getcruise.com/
+    image_url: /images/home/cruise.jpeg
+
+  - name: Rewriting the Code Fellow
+    web_url: https://rewritingthecode.org/
+    image_url: /images/RTC.jpg
+
+  - name: Proud Artist
+    web_url: pages/aboutme-art
+    image_url: /images/artist.jpg
+
+old-roles:
+  - name: Pixar Technical Director
+    web_url: https://www.pixar.com
+    image_url: /images/home/pixar_ball.jpeg
+    
   - name: Penn Computer Graphics Undergrad
     web_url: http://cg.cis.upenn.edu/
     image_url: /images/penn.jpg
@@ -58,35 +75,6 @@ topics:
   - name: Cesium GS Software Engineer Intern
     web_url: https://cesium.com/team/DzungNguyen/
     image_url: /images/cesium_logo.png
-
-  - name: Jack Kent Cooke Foundation Scholar
-    web_url: https://www.jkcf.org/
-    image_url: /images/jkc.jpg
-
-  - name: Rewriting the Code Fellow
-    web_url: https://rewritingthecode.org/
-    image_url: /images/RTC.jpg
-
-  - name: hack4impact Software Engineer and Tech Lead
-    web_url: https://hack4impact.org/about/
-    image_url: /images/hack.png
-
-  - name: Proud Artist Since I was Four
-    web_url: pages/aboutme-art
-    image_url: /images/artist.jpg
-
-old-roles:
-  - name: CBRE Build Software Engineer Intern
-    web_url: https://www.cbrebuild.com/
-    image_url: /images/cbre-build.png
-
-  - name: Pennaach Dancer
-    web_url: https://www.youtube.com/user/Pennaach
-    image_url: /images/naach.png
-
-  - name: Penn SIGGRAPH External Relations Chair
-    web_url: http://cg.cis.upenn.edu/siggraph/main.html#chapter
-    image_url: /images/siggraph.png
 
 # portfolio topics
 pitems:
